@@ -1,0 +1,24 @@
+__pycache__/
+
+# pyenv
+.python-version
+
+# folders linked to building opencv 
+build/
+opencv-3.4/
+
+# folder with task files
+task/
+
+# folder with training data
+training/data/*
+training/info/*
+training/neg/*
+training/*.jpg
+training/*.png
+training/bg.txt
+training/positives.vec
+
+# forgotten videos and CSVs
+*.mp4
+*.csv
